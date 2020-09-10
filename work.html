@@ -61,12 +61,10 @@
 												<h3>Speech to Text Conversion Service</h3>
 											</header>
 											<ul>
-												<li>Dolor etiam magna etiam.</li>
-												<li>Sagittis lorem eleifend.</li>
-												<li>Felis dolore viverra.</li>
-												<li>Felis dolore viverra.</li>
-												<li>Felis dolore viverra.</li>
-												<li>Felis dolore viverra.</li>
+												<li>Designed and developed a dockerized micro-service for realtime speech to text conversion.</li>
+												<li>Created a CI/CD pipeline for the micro-service using bitbucket and AWS ECS.</li>
+												<li>Setup monitoring for the micro-services using AWS CloudWatch logs and alarms.</li>
+												<li>Integrated the micro-service in the product using Django.</li>
 											</ul>
 											<ul class="actions small">
 												<li><a href="#" class="button small">Node.js</a></li>
@@ -88,6 +86,11 @@
 											<header class="major">
 												<h3>Candidate Face Recognition</h3>
 											</header>
+											<ul>
+												<li>Created a dockerized micro-service for face detection and comparision using MTCNN and FaceNet algorithms.</li>
+												<li>Developed a CI/CD pipeline for the mirco-service along with auto-scaling and monitoring policies.</li>
+												<li>Integrated the micro-service in the product.</li>
+											</ul>
 											<ul class="actions small">
 												<li><a href="#" class="button small">OpenCV</a></li>
 												<li><a href="#" class="button small">Docker</a></li>
@@ -108,6 +111,12 @@
 											<header class="major">
 												<h3>Automated Test from Job Description</h3>
 											</header>
+											<ul>
+												<li>Build a rest application for automated test creation using the skills and experience extracted from the job description.</li>
+												<li>The rest application was developed using Django DRF Framework, Firebase, RabbitMQ and MySQL</li>
+												<li>Created a utility for creating post and get s3 pre-signed urls.</li>
+												<li>Setup and deployed skill extraction micro-service on AWS ECS.</li>
+											</ul>
 											<ul class="actions small">
 												<li><a href="#" class="button small">Django</a></li>
 												<li><a href="#" class="button small">MySQL</a></li>
@@ -129,11 +138,9 @@
 												<h3>Webcam Proctoring</h3>
 											</header>
 											<ul>
-												<li>Point one</li>
-												<li>Point one</li>
-												<li>Point one</li>
-												<li>Point one</li>
-												<li>Point one</li>
+												<li> Implemented an pretrained YOLOv3 darknet architecture to detect and localize people in an image using OpenCV.</li>
+												<li>Build a dockerized rest-application on top of the model for detecting multiple and missing people in an image using RabbitMQ, DjangoDB, Mongo and Redis.</li>
+												<li>Designed an architecture to scale the application to at least 20000 concurrent users using Rabbitmq and AWS ECS.</li>
 											</ul>
 											<ul class="actions small">
 												<li><a href="#" class="button small">Django</a></li>
@@ -143,6 +150,30 @@
 												<li><a href="#" class="button small">Redis</a></li>
 												<li><a href="#" class="button small">OpenCV</a></li>
 												<li><a href="#" class="button small">AWS ECS</a></li>
+											</ul>
+										</div>
+									</div>
+								</section>
+								<section>
+									<a href="#" class="image">
+										<img src="images/work/tags.jpg" alt="" data-position="top center" />
+									</a>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>Automated Tags</h3>
+											</header>
+											<ul>
+												<li>Build a django rest application to automatically generate tags for the user generated content.</li>
+												<li>Implemented a combination of TextRank algorithm and Glove embeddings to generate both context based and technology related tags for the user generated content.</li>
+												<li> Optimized and refactored the method to compute and compare glove embeddings for generated tags, into a series of matrix multiplication, thus reducing the response time from 1.2 sec to 45ms.</li>
+											</ul>
+											<ul class="actions small">
+												<li><a href="#" class="button small">Flask</a></li>
+												<li><a href="#" class="button small">MongoDB</a></li>
+												<li><a href="#" class="button small">Amazon Sagemaker</a></li>
+												<li><a href="#" class="button small">Django</a></li>
+												<li><a href="#" class="button small">NetworkX</a></li>
 											</ul>
 										</div>
 									</div>
@@ -161,28 +192,45 @@
 						<section id="two" class="spotlights">
 							<section>
 									<a href="#" class="image">
-										<img src="images/work/webcam.jpg" alt="" data-position="25% 25%" />
+										<img src="images/work/article.jpg" alt="" data-position="25% 25%" />
 									</a>
 									<div class="content">
 										<div class="inner">
 											<header class="major">
-												<h3>Webcam Proctoring</h3>
+												<h3>Article Recommendation Engine</h3>
 											</header>
 											<ul>
-												<li>Point one</li>
-												<li>Point one</li>
-												<li>Point one</li>
-												<li>Point one</li>
-												<li>Point one</li>
+												<li>Experimented and implemented a combination of Universal Sentence Encoder and Deep Averaging Nets for clustering similar articles using Tensorflow.</li>
+												<li>Designed and built a rest-application using Flask to serve the model for recommending articles based on the user content in realtime.</li>
+												<li>Created an ElasticSearch package with custom similarity function for comparing the embedding of the text using cosine similarity.</li>
 											</ul>
 											<ul class="actions small">
-												<li><a href="#" class="button small">Django</a></li>
-												<li><a href="#" class="button small">MongoDB</a></li>
-												<li><a href="#" class="button small">RabbitMQ</a></li>
-												<li><a href="#" class="button small">Docker</a></li>
-												<li><a href="#" class="button small">Redis</a></li>
-												<li><a href="#" class="button small">OpenCV</a></li>
-												<li><a href="#" class="button small">AWS ECS</a></li>
+												<li><a href="#" class="button small">Flask</a></li>
+												<li><a href="#" class="button small">ElasticSearch</a></li>
+												<li><a href="#" class="button small">Tensorflow</a></li>
+												<li><a href="#" class="button small">Python</a></li>
+											</ul>
+										</div>
+									</div>
+								</section>
+								<section>
+									<a href="#" class="image">
+										<img src="images/work/blogger.jpg" alt="" data-position="25% 25%" />
+									</a>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>Miscellaneous</h3>
+											</header>
+											<ul>
+												<li> Create, organize and manage machine learning and deep learning challenges.</li>
+												<li>Published several blogs and practice contents on machine learning.</li>
+												<li>Interact and assist clients in formulating problems and datasets for conducting machine learning challenges and assements.</li>
+											</ul>
+											<ul class="actions small">
+												<li><a href="#" class="button small">Communication</a></li>
+												<li><a href="#" class="button small">Problem Solving</a></li>
+												<li><a href="#" class="button small">Blogger</a></li>
 											</ul>
 										</div>
 									</div>
@@ -193,81 +241,10 @@
 						<section id="two" style="background-color: #8ea9e8">
 							<div class="inner">
 								<header class="major">
-									<h2>Member - OpenSource</h2>
+									<h2>Member - PySyft</h2>
 									<p>OpenMined</p>
 								</header>
-								<p>Webcam proctoring</p>
 							</div>
-						</section>
-						<section id="two" class="spotlights">
-							<section>
-									<a href="#" class="image">
-										<img src="images/work/webcam.jpg" alt="" data-position="25% 25%" />
-									</a>
-									<div class="content">
-										<div class="inner">
-											<header class="major">
-												<h3>Webcam Proctoring</h3>
-											</header>
-											<ul>
-												<li>Point one</li>
-												<li>Point one</li>
-												<li>Point one</li>
-												<li>Point one</li>
-												<li>Point one</li>
-											</ul>
-											<ul class="actions small">
-												<li><a href="#" class="button small">Django</a></li>
-												<li><a href="#" class="button small">MongoDB</a></li>
-												<li><a href="#" class="button small">RabbitMQ</a></li>
-												<li><a href="#" class="button small">Docker</a></li>
-												<li><a href="#" class="button small">Redis</a></li>
-												<li><a href="#" class="button small">OpenCV</a></li>
-												<li><a href="#" class="button small">AWS ECS</a></li>
-											</ul>
-										</div>
-									</div>
-								</section>
-						</section>
-
-						<!-- Five -->
-						<section id="two" style="background-color: #8ea9e8">
-							<div class="inner">
-								<header class="major">
-									<h2>Machine Learning Engineer</h2>
-									<p>Freelancer.com</p>
-								</header>
-							</div>
-						</section>
-						<section id="two" class="spotlights">
-							<section>
-									<a href="#" class="image">
-										<img src="images/work/webcam.jpg" alt="" data-position="25% 25%" />
-									</a>
-									<div class="content">
-										<div class="inner">
-											<header class="major">
-												<h3>Webcam Proctoring</h3>
-											</header>
-											<ul>
-												<li>Point one</li>
-												<li>Point one</li>
-												<li>Point one</li>
-												<li>Point one</li>
-												<li>Point one</li>
-											</ul>
-											<ul class="actions small">
-												<li><a href="#" class="button small">Django</a></li>
-												<li><a href="#" class="button small">MongoDB</a></li>
-												<li><a href="#" class="button small">RabbitMQ</a></li>
-												<li><a href="#" class="button small">Docker</a></li>
-												<li><a href="#" class="button small">Redis</a></li>
-												<li><a href="#" class="button small">OpenCV</a></li>
-												<li><a href="#" class="button small">AWS ECS</a></li>
-											</ul>
-										</div>
-									</div>
-								</section>
 						</section>
 					</div>
 
